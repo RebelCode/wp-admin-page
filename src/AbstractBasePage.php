@@ -14,8 +14,8 @@ abstract class AbstractBasePage extends AbstractPage implements PageInterface
      *
      * @since [*next-version*]
      *
-     * @param string  $id      The page ID.
-     * @param string $title   The page title.
+     * @param string $id    The page ID.
+     * @param string $title The page title.
      */
     public function __construct($id, $title)
     {
