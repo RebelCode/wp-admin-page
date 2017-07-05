@@ -14,7 +14,8 @@
         "php": "^5.4 | ^7.0",
         "rebelcode/wp-admin-page-interface": "dev-task/initial-interfaces",
         "dhii/block-interface": "dev-task/initial-interface",
-        "dhii/invocable-interface": "dev-task/initial-interfaces"
+        "dhii/invocable-interface": "dev-task/initial-interfaces",
+        "dhii/data-key-value-aware-trait": "dev-task/initial-traits"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
@@ -43,6 +44,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/Dhii/invocable-interface"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dhii/data-key-value-aware-trait"
         }
     ]
 }
