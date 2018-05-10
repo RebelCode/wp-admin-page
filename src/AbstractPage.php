@@ -2,7 +2,7 @@
 
 namespace RebelCode\WordPress\Admin\Page;
 
-use Dhii\Util\String\StringableInterface;
+use Dhii\Util\String\StringableInterface as Stringable;
 
 /**
  * Basic functionality for WordPress admin pages.
@@ -101,7 +101,7 @@ abstract class AbstractPage
      *
      * @since [*next-version*]
      *
-     * @return string|StringableInterface
+     * @return string|Stringable
      */
     abstract protected function _getContent();
 }

@@ -2,6 +2,8 @@
 
 namespace RebelCode\WordPress\Admin\Page;
 
+use Dhii\Util\String\StringableInterface as Stringable;
+
 /**
  * Functionality for a page that is aware of the content to be rendered.
  *
@@ -14,7 +16,7 @@ trait ContentAwarePageTrait
      *
      * @since [*next-version*]
      *
-     * @var string|StringableInterface
+     * @var string|Stringable
      */
     protected $content;
 
@@ -23,7 +25,7 @@ trait ContentAwarePageTrait
      *
      * @since [*next-version*]
      *
-     * @return string|StringableInterface
+     * @return string|Stringable
      */
     protected function _getContent()
     {
@@ -35,7 +37,7 @@ trait ContentAwarePageTrait
      *
      * @since [*next-version*]
      *
-     * @param string|StringableInterface $content The output to render.
+     * @param string|Stringable $content The output to render.
      *
      * @return $this
      */

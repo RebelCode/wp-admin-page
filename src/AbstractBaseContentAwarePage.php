@@ -2,6 +2,8 @@
 
 namespace RebelCode\WordPress\Admin\Page;
 
+use Dhii\Util\String\StringableInterface as Stringable;
+
 /**
  * Abstract implementation of a page that is aware of the content to be rendered.
  *
@@ -9,6 +11,7 @@ namespace RebelCode\WordPress\Admin\Page;
  */
 abstract class AbstractBaseContentAwarePage extends AbstractBasePage
 {
+    /* @since [*next-version*] */
     use ContentAwarePageTrait;
 
     /**
@@ -18,7 +21,7 @@ abstract class AbstractBaseContentAwarePage extends AbstractBasePage
      *
      * @param string                     $id      The page ID.
      * @param string                     $title   The page title.
-     * @param string|StringableInterface $content The output to render for this page.
+     * @param string|Stringable          $content The output to render for this page.
      */
     public function __construct($id, $title, $content = '')
     {
