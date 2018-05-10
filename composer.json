@@ -29,6 +29,12 @@
             "RebelCode\\WordPress\\Admin\\Page\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "RebelCode\\WordPress\\Admin\\Page\\UnitTest\\": "test/unit",
+            "RebelCode\\WordPress\\Admin\\Page\\FuncTest\\": "test/functional"
+        }
+    },
     "scripts": {
         "test": "phpunit",
         "csfix": "php-cs-fixer fix -vvv"
