@@ -2,7 +2,7 @@
 
 namespace RebelCode\WordPress\Admin\Page;
 
-use Dhii\Block\BlockInterface;
+use Dhii\Output\BlockInterface;
 
 /**
  * The default, simple implementation of page.

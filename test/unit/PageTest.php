@@ -61,7 +61,7 @@ class PageTest extends TestCase
         );
 
         $this->assertInstanceOf(
-            'Dhii\\Block\\BlockInterface', $instance,
+            'Dhii\\Output\\BlockInterface', $instance,
             'Subject does not implement BlockInterface.'
         );
 
